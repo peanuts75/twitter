@@ -17,5 +17,6 @@
 }
 
 .flexcontainer div {
-  background-image: linear-gradient(to right, black, white, black)
+  background-image: linear-gradient(to right, black, white, black);
+  flex:1;
 }
