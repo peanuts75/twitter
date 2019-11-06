@@ -1,6 +1,11 @@
+html{
+  background-color:gray;
+}
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,9 +19,50 @@
   display:flex;
   flex:row nowrap;
   height:100vh;
+  justify-content: center;
 }
 
-.flexcontainer div {
-  background-image: linear-gradient(to right, black, white, black);
-  flex:1;
+.flexcontainer > div {
+  background-image: linear-gradient(to right, #0009, #fff9, #0009);
+  width:600px;
+}
+
+
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10vh;
+  color: white;
+}
+
+a {
+  font-size: 4vh;
+  color: white;
+  text-decoration: none;
+  padding: 2vh;
+}
+
+a.Home:hover, a.Twitter:hover, a.Explore:hover, a.Bookmarks:hover, a.Messages:hover, a.Profile:hover, a.Notifications:hover, a.Lists:hover, a.More:hover {
+  color: rgb(153, 134, 223);
+  background-color: rgba(21, 5, 78, 0.6);
+  border-radius: 2vh;
+}
+​
+a:active{
+  color: rgb(9,133,204);
+}
+
+@media only screen and (max-width: 700px) {
+  *{
+    background-color: red;
+  }
+}
+.Tweet {
+  background-color: rgb(87, 41, 160);
+  color: white;
+  border-radius: 2vh;
+  padding: 2vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
 }
