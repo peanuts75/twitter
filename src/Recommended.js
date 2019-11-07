@@ -50,18 +50,21 @@ function Recommended() {
             </div>
             <div className="followable">
               <p><img src={Circle} className="followableIcon"/></p>
-              <p className="twitterer">Twitterer</p>
-              <p className="twitterHandle">Twitter handle</p>
+              <p className="twitterer">Micheal Mild</p>
+              <p className="twitterHandle">#Milquetoastmike</p>
+              <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div className="followable">
-              <p>Icon</p>
-              <p className="twitterer">Twitterer</p>
-              <p className="twitterHandle">Twitter handle</p>
+              <p><img src={Circle} className="followableIcon"/></p>
+              <p className="twitterer">Montey Money</p>
+              <p className="twitterHandle">#Burnsey</p>
+              <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div class="followable">
-              <p>Icon</p>
-              <p className="twitterer">Twitterer</p>
-              <p className="twitterHandle">Twitter handle</p>
+              <p><img src={Circle} className="followableIcon"/></p>
+              <p className="twitterer">Mr Macho</p>
+              <p className="twitterHandle">#Kittywhisperer</p>
+              <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div className="recFoot">
               <p className="showMore"><a href="#">Show more</a></p>

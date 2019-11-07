@@ -39,12 +39,12 @@
     padding: 10px; 
 }
 
-.trendType, .tweetNumber{
+.trendType, .tweetNumber, .twitterHandle{
     font-size: 10pt;
     color:#99b;
 }
 
-.hashTag{
+.hashTag, .twitterer{
     font-size: 12pt;
 }
 
@@ -66,7 +66,7 @@ p{
     float:right;
 }
 
-.hashTag > a, .showMore > a{
+.hashTag > a, .showMore > a, .followButton > a{
     text-decoration: none;
 }
 
@@ -75,17 +75,43 @@ p{
 }
 
 .showMore > a {
-    color: rgb(123, 94, 170)
+    color: #75a
+}
+
+
+.showMore > a:hover, .showMore > a:active{
+    color: #a9e;
 }
 
 .showMore, .trend, .followable {
     border-top: 1px #fff3 solid;
 }
 
+
 .followableIcon{
     float:left;
-    font-size:30px
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
 }
+
+.followButton {
+    float: right;
+    margin-top:-37px;
+    margin-right: 10px;
+    border:1px #75a solid;
+    padding:10px 15px 10px 15px;
+    border-radius: 20px;
+}
+
+.followButton > a {
+    color: #75a
+}
+
+.followButton > a:hover, .followButton > a:active{
+    color: #a9e;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .Recommended{
