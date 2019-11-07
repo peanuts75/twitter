@@ -2,7 +2,9 @@ import React from 'react';
 import './Recommended.css'
 import ReactDOM from 'react-dom'
 import {FaCog, FaPersonBooth} from 'react-icons/fa'
-import Circle from './Circle.png'
+import Cropd1 from './cropd1.png'
+import Cropd2 from './cropd2.png'
+import Cropd3 from './cropd3.png'
 
 function Recommended() {
   return (
@@ -49,19 +51,19 @@ function Recommended() {
               <h1>Who to follow</h1>
             </div>
             <div className="followable">
-              <p><img src={Circle} className="followableIcon"/></p>
+              <p><img src={Cropd1} className="followableIcon"/></p>
               <p className="twitterer">Micheal Mild</p>
               <p className="twitterHandle">#Milquetoastmike</p>
               <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div className="followable">
-              <p><img src={Circle} className="followableIcon"/></p>
+              <p><img src={Cropd2} className="followableIcon"/></p>
               <p className="twitterer">Montey Money</p>
               <p className="twitterHandle">#Burnsey</p>
               <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div class="followable">
-              <p><img src={Circle} className="followableIcon"/></p>
+              <p><img src={Cropd3} className="followableIcon"/></p>
               <p className="twitterer">Mr Macho</p>
               <p className="twitterHandle">#Kittywhisperer</p>
               <p className="followButton"><a href="#">Follow</a></p>
