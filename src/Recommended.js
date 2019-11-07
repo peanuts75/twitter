@@ -19,22 +19,22 @@ function Recommended() {
             </div>
             <div className="trend">
               <p className="trendType">Trending in video games</p>
-              <p className="hashTag"><a href="#">#Gamers</a></p>
+              <p className="hashTag"><a href="#">#Dewritos</a></p>
               <p className="tweetNumber">751, 995 Tweets</p>
             </div>
             <div className="trend">
               <p className="trendType">Trending in the UK</p>
-              <p className="hashTag"><a href="#">#Brits</a></p>
+              <p className="hashTag"><a href="#">#MoaningAboutTea</a></p>
               <p className="tweetNumber">555, 123 Tweets</p>
             </div>
             <div className="trend">
-              <p className="trendType">Trend worldwide</p>
-              <p className="hashTag"><a href="#">#Peopling</a></p>
+              <p className="trendType">Trending worldwide</p>
+              <p className="hashTag"><a href="#">#BiggestPlanetOnEarth</a></p>
               <p className="tweetNumber">999, 666 Tweets</p>
             </div>
             <div className="trend">
               <p className="trendType">Trending in music</p>
-              <p className="hashTag"><a href="#">#DJ</a></p>
+              <p className="hashTag"><a href="#">#ClassicalHardPunkJazz</a></p>
               <p className="tweetNumber">123, 246 Tweets</p>
             </div>
             <div className="trend">
@@ -53,7 +53,7 @@ function Recommended() {
             <div className="followable">
               <p><img src={Cropd1} className="followableIcon"/></p>
               <p className="twitterer">Micheal Mild</p>
-              <p className="twitterHandle">#Milquetoastmike</p>
+              <p className="twitterHandle">#MilqueToastMike</p>
               <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div className="followable">
@@ -65,7 +65,7 @@ function Recommended() {
             <div class="followable">
               <p><img src={Cropd3} className="followableIcon"/></p>
               <p className="twitterer">Mr Macho</p>
-              <p className="twitterHandle">#Kittywhisperer</p>
+              <p className="twitterHandle">#KittyWhisperer</p>
               <p className="followButton"><a href="#">Follow</a></p>
             </div>
             <div className="recFoot">
