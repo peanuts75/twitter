@@ -3,7 +3,7 @@
 }
 
 html{
-  background-color:gray;
+  background-color: rgb(21, 28, 38);
 }
 
 .App {
@@ -27,12 +27,11 @@ html{
 }
 
 .flexcontainer > div {
-  background-image: linear-gradient(to right, #0009, #fff9, #0009);
   width:600px;
 }
 
 .flexcontainer div {
-  background-color: rgb(21, 28, 38);
+
   flex:1;
 }
 
@@ -44,7 +43,7 @@ html{
   color: white;
 }
 
-a {
+.Navbar > a {
   font-size: 4vh;
   color: white;
   text-decoration: none;

@@ -1,15 +1,14 @@
 .Recommended{
-    text-align:left;
+    text-align:left;   
 }
 
-#recInner {
-    background-color:none;
-    background-image:none;
-    color:green;
+#recInner{
+    width:300px;
+    padding-left:30px
 }
 
 #searchTwitter{
-
+    text-align:center;
 }
 
 #searchTwitter > input{
@@ -25,10 +24,71 @@
     padding-left:15px;
 }
 
-#trendsForYou{
-
+#trendsForYou, #whoToFollow{
+    border:0;
+    border-radius: 25px;
+    background-color:#fff1;
+    margin:5px;
 }
 
-#whoToFollow{
+.recHead, .recfoot{
+    padding:10px
+}
 
+.trend, .followable{
+    padding: 10px; 
+}
+
+.trendType, .tweetNumber{
+    font-size: 10pt;
+    color:#99b;
+}
+
+.hashTag{
+    font-size: 12pt;
+}
+
+.trendType, .hashTag, .tweetNumber{
+    margin: 5px;
+}
+
+h1{
+    font-size: 16pt;
+    margin: 10px;
+}
+
+p{
+    margin: 0;
+    padding:0;
+}
+
+.cog {
+    float:right;
+}
+
+.hashTag > a, .showMore > a{
+    text-decoration: none;
+}
+
+.showMore {
+    padding:20px;
+}
+
+.showMore > a {
+    color: rgb(123, 94, 170)
+}
+
+.showMore, .trend, .followable {
+    border-top: 1px #fff3 solid;
+}
+
+.followableIcon{
+    float:left;
+    font-size:30px
+}
+
+@media only screen and (max-width: 1200px) {
+    .Recommended{
+        display:none;
+    }
 }
