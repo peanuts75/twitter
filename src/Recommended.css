@@ -9,6 +9,11 @@
 
 #searchTwitter{
     text-align:center;
+    margin-top: 5px;
+}
+
+#searchTwitter > input:focus{
+    outline:none;
 }
 
 #searchTwitter > input{
@@ -17,11 +22,19 @@
     height:35px;
     font-size: 15pt;
     padding-left:50px;
+    background-color:#fff1;
+    border:0;
 }
 
 #searchTwitter > input:before{
     position:absolute;
     padding-left:15px;
+}
+
+.searchIcon{
+    float:left;
+    margin-top:-26px;
+    margin-left:25px
 }
 
 #trendsForYou, #whoToFollow{
@@ -66,15 +79,27 @@ p{
     float:right;
 }
 
-.hashTag > a, .showMore > a, .followButton > a{
-    text-decoration: none;
+#trendsForYou > a, #whoToFollow > a, .followButton > a{
+    text-decoration-line: none;
+}
+
+.trend:hover, .followable:hover{
+    background-color:#fff2;
+    background-blend-mode:soft-light;
+}
+
+.recFoot:hover{
+    background-color:#fff2;
+    background-blend-mode:soft-light;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .showMore {
     padding:20px;
 }
 
-.showMore > a {
+.showMore {
     color: #75a
 }
 
