@@ -23,7 +23,6 @@ html{
   display:flex;
   flex:row nowrap;
   height:100vh;
-  justify-content: center;
 }
 
 .flexcontainer > div {
@@ -31,16 +30,20 @@ html{
 }
 
 .flexcontainer div {
-
   flex:1;
 }
 
 .Navbar {
+  font-weight: bold;
+  list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  flex-basis: 2vh, auto;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 10vh;
   color: white;
+  flex: 1;
 }
 
 .Navbar > a {
@@ -56,22 +59,33 @@ a.Home:hover, a.Twitter:hover, a.Explore:hover, a.Bookmarks:hover, a.Messages:ho
   border-radius: 2vh;
 }
 ​
+a {
+  font-size: 20pt;
+  color: white;
+  text-decoration: none;
+  padding: 3vh;
+}
+
+a.Home:hover, a.Twitter:hover, a.Explore:hover, a.Bookmarks:hover, a.Messages:hover, a.Profile:hover, a.Notifications:hover, a.Lists:hover, a.More:hover {
+  color: rgb(9, 133, 204);
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 2vh;
+}
+
 a:active{
   color: rgb(9,133,204);
 }
 
-@media only screen and (max-width: 700px) {
-  *{
-    background-color: red;
-  }
-}
+
 .Tweet {
-  background-color: rgb(87, 41, 160);
+  background-color: rgb(9, 133, 204);
   color: white;
-  border-radius: 2vh;
+  border-radius: 4vh;
   padding: 2vh;
-  padding-left: 8vh;
-  padding-right: 8vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  font-size: 14pt;
+  font-weight: bold;
 }
 .Main {
   border-style: solid;
@@ -109,4 +123,64 @@ a:active{
   padding-left: 10vh;
   color: white;
 }
+.Feather {
+  visibility: hidden;
+}
 
+
+@media only screen and (max-width:1400px) {
+  .text{
+      display:none;
+  }
+}
+@media only screen and (max-width:1400px){
+  .Tweet {
+    display: none;
+  }
+  .Feather {
+    visibility: visible;
+    background-color: rgb(9, 133, 204);
+    border-radius: 50vh;
+    padding: 2vh;
+  }
+}
+
+@media only screen and (max-width:750px){
+  .Navbar{
+    display:none;
+  }
+}
+
+.image1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 0px;
+  float: left;
+}
+.mainBodyTextBox1 {
+  margin-left: 80px;
+  font-size: 10px;
+  
+}
+.photoBox {
+  border-style: solid;
+  border-width: 0.5px;;
+  height: 300px;
+  border-radius: 15px;
+  margin-right: 15px;
+  border-color: rgba(255, 255, 255, 0.493);
+  
+}
+.bob ul {
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.lowerTaskBarComme a:hover {
+  background-color: cyan;
+  border-radius: 50%;
+}
